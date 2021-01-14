@@ -1,23 +1,31 @@
 {
-    "name": "fabric",
-    "displayName": "fabric",
-    "description": "A ",
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Fabric",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Fabric-color-theme.json"
-            }
-        ]
-    },
-    "icon": "images/icon.png",
-    "publisher": "hkg"
+  "name": "fabric",
+  "displayName": "fabric",
+  "description": "A code theme",
+  "author": {
+    "name": "HKG",
+    "url": "https://github.com/HKGx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HKGx/fabric.git"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fabric",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fabric-color-theme.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png",
+  "publisher": "hkg"
 }
