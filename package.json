@@ -1,0 +1,23 @@
+{
+    "name": "fabric",
+    "displayName": "fabric",
+    "description": "A ",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fabric",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Fabric-color-theme.json"
+            }
+        ]
+    },
+    "icon": "images/icon.png",
+    "publisher": "hkg"
+}
