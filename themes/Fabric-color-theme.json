@@ -423,6 +423,69 @@
       }
     },
     // END HTML
+    // CSS
+    {
+      "name": "CSS Wildcard Selector",
+      "scope": "entity.name.tag.wildcard.css",
+      "settings": {
+        "foreground": "#d89ae2",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.property-name.css",
+      "settings": {
+        "foreground": "#80cbc4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS Selector Tag",
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "#9fa8da"
+      }
+    },
+    {
+      "name": "CSS Selector Id",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#e29aa4"
+      }
+    },
+    {
+      "name": "CSS Selector Pseudo Element",
+      "scope": "entity.other.attribute-name.pseudo-element.css",
+      "settings": {
+        "foreground": "#54a1e0"
+      }
+    },
+    {
+      "name": "CSS Pseudo Element",
+      "scope": "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "CSS Constants",
+      "scope": [
+        "support.constant.font-name.css",
+        "support.constant.property-value.css"
+
+      ],
+      "settings": {
+        "foreground": "#7373e5"
+      }
+    },
+    {
+      "name": "CSS Root Selector",
+      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "settings": {
+        "foreground": "#d89ae2"
+      }
+    }
+    // END CSS
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
