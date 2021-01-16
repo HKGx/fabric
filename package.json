@@ -26,6 +26,12 @@
       }
     ]
   },
+  "scripts": {
+    "build": "vsce package"
+  },
   "icon": "images/icon.png",
-  "publisher": "hkg"
+  "publisher": "hkg",
+  "devDependencies": {
+    "vsce": "^1.83.0"
+  }
 }
