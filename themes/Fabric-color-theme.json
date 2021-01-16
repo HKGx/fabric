@@ -33,7 +33,7 @@
     "terminal.background": "#1e2327",
     "editor.lineHighlightBackground": "#7289DA40",
     "editor.lineHighlightBorder": "#3e5ac130",
-    "notebook.cellBorderColor": "#7289DA40",
+    "notebook.cellBorderColor": "#7289DA40"
   },
   "tokenColors": [
     {
@@ -139,7 +139,7 @@
       "name": "Yaml Tag",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#4fc3f7",
+        "foreground": "#d89ae2",
         "fontStyle": "italic"
       }
     },
@@ -383,8 +383,46 @@
       "settings": {
         "foreground": "#80d7ff"
       }
-    }
+    },
     // END F#
+    // HTML
+    {
+      "name": "HTML Tag Name",
+      "scope": "entity.name.tag.html",
+      "settings": {
+        "foreground": "#d89ae2",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "HTML Punctuation Tag Begin",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#80deea"
+      }
+    },
+    {
+      "name": "HTML DOCTYPE Tag",
+      "scope": [
+        "meta.tag.metadata.doctype.html entity.name.tag.html",
+        "meta.tag.metadata.doctype.html"
+      ],
+      "settings": {
+        "foreground": "#ff8a80",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML Attribute Punctuation",
+      "scope": "punctuation.separator.key-value.html",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    // END HTML
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
