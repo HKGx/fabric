@@ -9,6 +9,6 @@
 ## Screenshots
 
 ### Python  
-![Screnshot showcasing Python syntax highlighting](.github/python.png)  
+![Screnshot showcasing Python syntax highlighting](images/python.png)  
 ### HTML
-![Screnshot showcasing HTML syntax highlighting](.github/html.png)
+![Screnshot showcasing HTML syntax highlighting](images/html.png)
