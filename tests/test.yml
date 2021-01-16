@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  chessbot:
+    image: chessbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["python", "run.py"]
+    ports:
+      - 5678:5678
