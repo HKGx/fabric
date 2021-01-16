@@ -31,7 +31,8 @@
     "list.hoverBackground": "#3f5ca8",
     "terminal.background": "#000000",
     "editor.lineHighlightBackground": "#7289DA40",
-    "editor.lineHighlightBorder": "#3e5ac130"
+    "editor.lineHighlightBorder": "#3e5ac130",
+    "notebook.cellBorderColor": "#7289DA40",
   },
   "tokenColors": [
     {
@@ -67,7 +68,7 @@
     },
     {
       "name": "String",
-      "scope": ["string.quoted.double", "string.quoted.single"],
+      "scope": ["string.quoted", "string.quoted"],
       "settings": {
         "foreground": "#9a9aef"
       }
@@ -111,8 +112,8 @@
       }
     },
     {
-      "name": "Control Flow Keywords",
-      "scope": "keyword.control.flow",
+      "name": "Control Keywords",
+      "scope": "keyword.control",
       "settings": {
         "foreground": "#fff176"
       }
@@ -125,6 +126,14 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#b3e5fcbb"
+      }
+    },
+    // YAML
     {
       "name": "Yaml Tag",
       "scope": "entity.name.tag.yaml",
@@ -140,6 +149,7 @@
         "foreground": "#f48fb1"
       }
     },
+    // END YAML
     // PYTHON
     {
       "name": "Python Variable: self, cls",
@@ -157,6 +167,13 @@
       "scope": "support.type.python",
       "settings": {
         "foreground": "#e29aa4"
+      }
+    },
+    {
+      "name": "Python Decorator Period",
+      "scope": "meta.function.decorator.python punctuation.separator.period.python",
+      "settings": {
+        "foreground": "#FFFFFF"
       }
     },
     // JSON
@@ -294,9 +311,79 @@
       "settings": {
         "foreground": "#C980FF"
       }
-    }
-
+    },
     // END MARKUP
+    // F#
+    {
+      "name": "F# Keyword",
+      "scope": "keyword.fsharp",
+      "settings": {
+        "foreground": "#ce93d8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "F# Operators",
+      "scope": "keyword.symbol.fsharp",
+      "settings": {
+        "foreground": "#80deea"
+      }
+    },
+    {
+      "name": "F# Variable Declaration",
+      "scope": "binding.fsharp variable.fsharp",
+      "settings": {
+        "foreground": "#80cbc4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "F# Binding Type",
+      "scope": "binding.fsharp entity.name.type.fsharp",
+      "settings": {
+        "foreground": "#e29aa4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "F# Function Parameter",
+      "scope": "binding.fsharp variable.parameter.fsharp",
+      "settings": {
+        "foreground": "#54a1e0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "F# Record Declaration",
+      "scope": "record.fsharp entity.name.type.fsharp",
+      "settings": {
+        "foreground": "#e29aa4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "F# Function Attribute",
+      "scope": "support.function.attribute.fsharp",
+      "settings": {
+        "foreground": "#80cbc4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "F# Open Namespace",
+      "scope": "namespace.open.fsharp keyword.fsharp",
+      "settings": {
+        "foreground": "#ff8a80"
+      }
+    },
+    {
+      "name": "F# Open Namespace Namespace",
+      "scope": "namespace.open.fsharp",
+      "settings": {
+        "foreground": "#80d7ff"
+      }
+    }
+    // END F#
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -311,6 +398,10 @@
     "variable": "#90caf9",
     "variable.declaration.readonly": { "bold": true },
     "module": "#80d7ff",
-    "parameter": "#54a1e0"
+    "namespace": "#80d7ff",
+    "parameter": "#54a1e0",
+    "type": "#e29aa4",
+    "struct": "#e29aa4",
+    "property": "#a4e29a"
   }
 }
