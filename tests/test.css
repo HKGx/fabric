@@ -1,0 +1,21 @@
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  display: block;
+}
+
+#btn {
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
