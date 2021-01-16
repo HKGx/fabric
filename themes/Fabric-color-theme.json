@@ -179,31 +179,41 @@
     },
     // JSON
     {
-      "name": "Property Level 1",
+      "name": "JSON Property Level 1",
       "scope": "meta.structure.dictionary.json",
       "settings": {
         "foreground": "#D89AE2"
       }
     },
     {
-      "name": "Property Level 2",
+      "name": "JSON Property Level 2",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.json",
       "settings": {
         "foreground": "#A4E29A"
       }
     },
     {
-      "name": "Property Level 3",
+      "name": "JSON Property Level 3",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json",
       "settings": {
         "foreground": "#E2B49A"
       }
     },
     {
-      "name": "Property Level 4",
+      "name": "JSON Property Level 4",
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json",
       "settings": {
         "foreground": "#9AC8E2"
+      }
+    },
+    {
+      "name": "JSON separators",
+      "scope": [
+        "punctuation.separator.dictionary.key-value.json.comments",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
       }
     },
     // END JSON
