@@ -334,10 +334,18 @@
       }
     },
     {
+      "name": "F# Type Declaration",
+      "scope": "record.fsharp keyword.fsharp",
+      "settings": {
+        "foreground": "#9fa8da",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "F# Operators",
       "scope": "keyword.symbol.fsharp",
       "settings": {
-        "foreground": "#80deea"
+        "foreground": "#d89ae2"
       }
     },
     {
